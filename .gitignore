@@ -1,0 +1,29 @@
+# 运行时数据（可能包含本机路径、历史记录、实验描述、暂停状态）
+data/
+tools/demo_workspace/proj_alpha/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# 日志 / 临时文件
+*.log
+logs/
+*.tmp
+~$*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地截图 / 调试文件
+docs/_*.png
+docs/_*.jpg

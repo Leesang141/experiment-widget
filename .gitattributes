@@ -1,0 +1,11 @@
+# 默认按文本处理，但不要破坏二进制资源
+* text=auto
+
+*.png binary
+*.jpg binary
+*.ico binary
+# VBS 启动器使用 UTF-16LE + BOM，必须按二进制原样保存
+*.vbs binary
+
+*.md text eol=lf
+*.py text eol=lf
